@@ -1,0 +1,8 @@
+node_modules/
+dist/
+*.tsbuildinfo
+.vscode-test/
+*.vsix
+.DS_Store
+.php-src/
+.jetbrains-src/

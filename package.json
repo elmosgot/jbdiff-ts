@@ -1,0 +1,20 @@
+{
+  "name": "jbdiff-ts",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build -w @jbdiff/core && npm run build -w @jbdiff/cli",
+    "test": "npm run test -w @jbdiff/core",
+    "cli": "npm run start -w @jbdiff/cli --"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
