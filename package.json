@@ -6,7 +6,7 @@
   ],
   "scripts": {
     "build": "npm run build -w @jbdiff/core && npm run build -w @jbdiff/cli",
-    "test": "npm run test -w @jbdiff/core",
+    "test": "npm run test -w @jbdiff/core && npm run test -w @jbdiff/cli",
     "cli": "npm run start -w @jbdiff/cli --"
   },
   "devDependencies": {
